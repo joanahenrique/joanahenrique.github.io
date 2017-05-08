@@ -160,6 +160,9 @@ main {
     display: inline-block;
     color: #ffffff;
     padding-left: 5px; }
+    @media screen and (max-width: 480px) {
+      .gallery-popup .description {
+        width: 100%; } }
     .gallery-popup .description h2, .gallery-popup .description p {
       text-align: left; }
     .gallery-popup .description a {
