@@ -49,7 +49,7 @@
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
-  max-width: 90%;
+  width: 100%;
   cursor: auto; }
 
 .mfp-ajax-cur {
