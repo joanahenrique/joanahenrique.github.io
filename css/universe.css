@@ -83,7 +83,10 @@ main {
   main .thebigtitle {
     text-align: center;
     max-width: 100%;
-    padding-top: 300px; }
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%); }
     @media screen and (max-width: 767px) {
       main .thebigtitle {
         padding-top: 200px; } }
@@ -304,8 +307,9 @@ main {
   position: absolute;
   left: 0;
   right: 0;
-  height: 170%;
-  margin: 0 auto; }
+  height: 167%;
+  margin: 0 auto; 
+overflow:hidden;}
   .galaxy .star {
     position: absolute;
     background-color: white; }
