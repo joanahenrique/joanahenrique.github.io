@@ -51,6 +51,10 @@ table {
 border-collapse: collapse;
 border-spacing: 0; }
 
+i {
+  font-style: italic;
+}
+
 /* ---------- MY VARIABLES ---------- */
 body {
 font-family: "Open Sans", Arial, sans-serif;
@@ -170,6 +174,9 @@ z-index: 1; }
   list-style-type: none;
   display: inline;
   padding: 10px 20px; }
+  .myart ul img {
+    cursor: pointer;
+  }
 .myart #mixit .mix {
   display: none; }
 .myart a {
@@ -207,7 +214,14 @@ padding: 100px 150px; }
   .gallery-popup {
     padding: 50px 10px 20px; } }
 .gallery-popup .gallery-images {
-  text-align: center; }
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+  .gallery-popup .gallery-images img {
+    padding:10px;
+  }
 .gallery-popup .description {
   width: 500px;
   display: inline-block;
