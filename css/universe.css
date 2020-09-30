@@ -176,6 +176,7 @@ z-index: 1; }
   padding: 10px 20px; }
   .myart ul img {
     cursor: pointer;
+    width:180px;
   }
 .myart #mixit .mix {
   display: none; }
